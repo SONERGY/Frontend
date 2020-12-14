@@ -1,0 +1,34 @@
+/* your styles go here */
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+.box-height{
+    height: 528px;
+}
+.social-link:hover,
+.social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+}
+
+.with-pattern-1::before {
+    content: '';
+    position: absolute;
+    background: url(../../assets/img/pattern.png);
+    width: 265px;
+    height: 325px;
+    right: 0px;
+    top: 0px;
+    background-repeat: no-repeat;
+    z-index: 1;
+}

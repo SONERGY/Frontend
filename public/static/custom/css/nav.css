@@ -1,0 +1,398 @@
+/*
+    DEMO STYLE
+*/
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background: #f2f3f7;
+  font-size: 14px;
+}
+
+.reset-padding {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+.desktop-side-link{
+ border-radius: 7.5px;
+}
+.desktop-side-bar-link li{
+  font-size: .75rem;
+  padding: 7px 0;
+
+}
+#topBanner img{
+  border-radius: 7.5px;
+}
+.myHeight{
+  height: 384px !important;
+}
+.desktop-side-bar-link li:hover{
+  color:  #ee8011;
+}
+.desktop-side-bar-link li .fas{
+  font-size: 1rem;
+  padding-right: 1.5px;
+}
+hr.iphone {
+  overflow: visible;
+  padding: 0;
+  border: none;
+  border-top: 5px solid #dcdde2;
+  color: #333;
+  text-align: left;
+  
+}
+
+hr.iphone:after {
+  content: "iPhones";
+  display: inline-block;
+  position: relative;
+  top: -1em;
+  font-size: 18px;
+ font-weight: bold;
+  background: #f2f3f7;
+
+  padding-right: 20px;
+}
+
+hr.samsung {
+  overflow: visible;
+  padding: 0;
+  border: none;
+  border-top: 5px solid #dcdde2;
+  color: #333;
+  text-align: left;
+  
+}
+
+hr.samsung:after {
+  content: "Samsung Phones";
+  display: inline-block;
+  position: relative;
+  top: -1em;
+  font-size: 18px;
+ font-weight: bold;
+  background: #f2f3f7;
+
+  padding-right: 20px;
+}
+
+hr.tecno {
+  overflow: visible;
+  padding: 0;
+  border: none;
+  border-top: 5px solid #dcdde2;
+  color: #333;
+  text-align: left;
+  
+}
+
+hr.tecno:after {
+  content: "Tecno Phones";
+  display: inline-block;
+  position: relative;
+  top: -1em;
+  font-size: 18px;
+ font-weight: bold;
+  background: #f2f3f7;
+
+  padding-right: 20px;
+}
+
+.theHeight{
+  height: 320px;
+}
+
+.home-category-info-banner .title {
+  max-width: 200px;
+  color: #fff;
+  top: 60px;
+  left: 20px;
+  padding-right: 30px;
+  font-size: 22px;
+  text-shadow: 0 2px 4px rgba(0,0,0,.12);
+  line-height: 28px;
+  right: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.wrap {
+  display: flex;
+ 
+  
+  border-radius: 0.5rem;
+ 
+}
+
+
+.ico-wrap {
+  margin: auto;
+}
+
+.mbr-iconfont {
+  font-size: 4.5rem !important;
+
+  margin: 1rem;
+}
+.vcenter {
+  margin: auto;
+}
+
+.mbr-section-title3 {
+  text-align: left;
+}
+h2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.display-5 {
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 1rem;
+}
+.mbr-bold {
+  font-weight: 700;
+}
+
+p {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  line-height: 25px;
+}
+.display-6 {
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 1re}
+.how-is-works{
+  background-color: #f5f2ee;
+}
+.the-banner-info-footer-button {
+
+  position: absolute;
+  bottom: 40px;
+  left: 10px;
+}
+.product-item{
+  position: relative;
+  height: 140px;
+  background-color: #fff;
+  border: 1px solid #dcdee3;
+}
+.product-item img {
+
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+}
+
+.product-item h4{
+  font-size: 16px;
+  padding: 10px;
+}
+.tables-phone-banner-info1{
+  background-image: url("/public/static/assets/side-cover/iphone.png"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 280px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  padding: 50px 10px;
+}
+
+.tables-phone-banner-info2{
+  background-image: url("/public/static/assets/side-cover/samsung.png"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 280px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  padding: 50px 10px;
+}
+
+.tables-phone-banner-info3{
+  background-image: url("/public/static/assets/side-cover/techno.png"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 280px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  padding: 50px 10px;
+}
+
+
+a,
+a:hover,
+a:focus {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.navbar {
+  background: #fff;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+#sidebar {
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  height: 100vh;
+  z-index: 999;
+  background: #fff;
+  color: #4c4c4c;
+  transition: all 0.3s;
+  overflow-y: scroll;
+}
+
+#sidebar.active {
+  left: 0;
+}
+
+#dismiss {
+  /* width: 35px;
+  height: 35px;
+  line-height: 35px; */
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  color: #ee8011;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#dismiss:hover {
+  background: #fff;
+  color: #ee8011;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 998;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.overlay.active {
+  display: block;
+  opacity: 1;
+}
+.btn-warning {
+  background-color: #ee8011 !important;
+}
+#sidebar .sidebar-header {
+  padding: 10px;
+  background: #ffff;
+}
+
+#sidebar ul.components {
+  padding: 20px 0;
+  border-bottom: 1px solid #dcdee3;
+}
+
+#sidebar ul p {
+  color: #fff;
+  padding: 10px;
+}
+
+#sidebar ul li a {
+  padding: 10px;
+  font-size: 1.1em;
+  display: block;
+}
+
+#sidebar ul li a:hover {
+  color: #ee8011;
+  background: #fff;
+}
+
+#sidebar ul li.active > a,
+a[aria-expanded="true"] {
+  color: #fff;
+  background: #ee8011;
+}
+
+a[data-toggle="collapse"] {
+  position: relative;
+}
+
+.dropdown-toggle::after {
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+ul ul a {
+  font-size: 0.9em !important;
+  padding-left: 30px !important;
+  background: #6d7fcc;
+}
+
+ul.CTAs {
+  padding: 20px;
+}
+
+ul.CTAs a {
+  text-align: center;
+  font-size: 0.9em !important;
+  display: block;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+a.download {
+  background: #fff;
+  color: #7386d5;
+}
+
+a.article,
+a.article:hover {
+  background: #6d7fcc !important;
+  color: #fff !important;
+}
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+  width: 100%;
+
+  min-height: 100vh;
+  transition: all 0.3s;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {...} */
+/* 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */ */

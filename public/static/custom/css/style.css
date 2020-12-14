@@ -1,0 +1,183 @@
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+
+.loader {
+  border: 16px solid #f3f3f3;
+  /* Light grey */
+  border-top: 16px solid #f28417;
+  /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  margin: 0 auto;
+}
+
+
+.loaderst {
+  font-size: 10px;
+  margin: 20px auto;
+  text-indent: -9999em;
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  background: #9d8f8f;
+  background: -moz-linear-gradient(left, #9d8f8f 10%, rgba(192, 192, 192, 0) 42%);
+  background: -webkit-linear-gradient(left, #9d8f8f 10%, rgba(192, 192, 192, 0) 42%);
+  background: -o-linear-gradient(left, #9d8f8f 10%, rgba(192, 192, 192, 0) 42%);
+  background: -ms-linear-gradient(left, #9d8f8f 10%, rgba(192, 192, 192, 0) 42%);
+  background: linear-gradient(to right, #9d8f8f 10%, rgba(192, 192, 192, 0) 42%);
+  position: relative;
+  -webkit-animation: load3 1.4s infinite linear;
+  animation: load3 1.4s infinite linear;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.loaderst:before {
+  width: 50%;
+  height: 50%;
+  background: #ffffff;
+  border-radius: 100% 0 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+}
+
+.loaderst:after {
+  background: #ffffff;
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
+  content: '';
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+@-webkit-keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+
+.border-md {
+  border-width: 2px;
+}
+
+.btn-facebook {
+  background: #405D9D;
+  border: none;
+}
+
+.btn-facebook:hover,
+.btn-facebook:focus {
+  background: #314879;
+}
+
+.btn-twitter {
+  background: #42AEEC;
+  border: none;
+}
+
+.btn-twitter:hover,
+.btn-twitter:focus {
+  background: #1799e4;
+}
+
+
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+
+body {
+  min-height: 100vh;
+}
+
+.form-control:not(select) {
+  padding: 1.5rem 0.5rem;
+}
+
+select.form-control {
+  height: 52px;
+  padding-left: 0.5rem;
+}
+
+.form-control::placeholder {
+  color: #ccc;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.custom-alert {
+  position: relative;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+
+}
+
+.custom-alert p {
+  font-size: 14px;
+}
+
+.custom-alert.success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+.custom-alert.danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+.custom-alert.warning {
+  color: #856404;
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+}
+
+.null-font-family {
+  font-family: unset !important;
+}
